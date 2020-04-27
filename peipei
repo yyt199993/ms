@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>小🐏的周年🎁</title>
+    <script>
+      alert('想要查看礼物，请先登录哦！！');
+    </script>
+</head>
+<body>
+    <center><h2>登录</h2></center>
+        <form action="xiaoYang" method="post">
+            <table  width="400"align="center" >
+                <tr>
+                    <td>账号：</td>
+                    <td><input type="text" name="usname"></td>
+                </tr>
+                <tr>
+                    <td>密码：</td>
+                    <td><input type="password" name="pasname"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                    <input type="submit" value="登录"></td>
+                </tr>
+            </table>
+        </form>
+</body>
+</html>
